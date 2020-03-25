@@ -1,0 +1,25 @@
+body{
+    font-family: sans-serif;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(18, 49, 4);
+    padding: 20px;
+    
+}
+li{
+    display: inline;
+}
+li a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+
+li a:hover{
+    background-color: lightgray;
+    color: black;
+}

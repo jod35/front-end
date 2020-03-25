@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    
+}
+
+
+.left{
+    left: 25%;
+    padding: 100px;
+    height: 1000px; 
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    width: 20%;
+    height: 100%;
+    list-style-type: none;
+    background-color: #4d4646;
+    overflow: auto;
+}
+
+li a{
+    display: block;
+    color: #ffffff;
+    padding: 8px 0 8px 16px;
+    text-decoration: none ;
+}
+.active{
+    background-color: #3abb13;
+}
+
+li a:hover{
+    color: #ffffff;
+    background-color: #aaa2a2;
+}

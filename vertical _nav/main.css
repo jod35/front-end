@@ -1,0 +1,30 @@
+body{
+    font-family: sans-serif;
+}
+ul{
+    list-style-type: none;
+    border: 1px solid black;
+    margin: 0;
+    padding: 0;
+    width: 160px;
+    height: 100%;
+  
+    background-color: #17df17;
+    
+   
+}
+
+li a{
+    display: block;
+    text-align: center;
+    border: 1px solid rgba(209, 138, 138, 0.308);
+    text-decoration: none;
+    color: #ffffff;
+    padding: 20px;
+   
+}
+
+li a:hover{
+    background-color: #999966;
+    color: white;
+}
