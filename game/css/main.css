@@ -1,0 +1,86 @@
+* {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.text-center {
+  text-align: center;
+}
+.game-div {
+  width: 40%;
+  height: ;
+  display: flex;
+  background-color: ;
+  padding: 20px;
+  margin: auto;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.box {
+  background-color: lightgray;
+  color: dodgerblue;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  width: 100px;
+  height: 100px;
+  align-items: center;
+  margin-left: 20px;
+  border-radius: 50%;
+}
+.cancel {
+  background-color: red;
+  color: white;
+}
+.call {
+  color: white;
+  background-color: green;
+}
+.box-number {
+  font-size: 3em;
+}
+
+.box:hover {
+  /* color: white;
+  background-color: dodgerblue; */
+}
+/* .active {
+  background-color: dodgerblue;
+  color: white;
+  animation: fade 5s forwards;
+}
+
+@keyframes fade {
+  to {
+    display: none;
+    background-color: rgba(30, 143, 255, 0.548);
+    color: rgba(255, 255, 255, 0.445);
+  }
+
+  from {
+    background-color: dodgerblue;
+    color: white;
+  }
+} */
+.screen-text {
+  color: rgba(30, 143, 255, 0.253);
+}
+.screen-display {
+  width: 40%;
+  height: 20%;
+  /* background-color: lime; */
+  padding: 40px;
+  margin: auto;
+  border-bottom: 1px solid dodgerblue;
+}
+.none {
+  background-color: white;
+  color: white;
+}
+
+.screen-nums {
+  color: dodgerblue;
+  font-size: 3rem;
+}
