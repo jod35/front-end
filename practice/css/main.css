@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+.text-center {
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.nav-bar {
+  padding: 20px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  top: 0;
+  left: 0;
+  position: fixed;
+  width: 100%;
+}
+
+.nav-bar-item {
+  padding: 20px;
+  display: inline;
+}
+.home {
+  height: 100vh;
+  padding: 20%;
+  line-height: 3;
+  background-color: black;
+  color: white;
+}
+.active {
+  border-bottom: green 5px solid;
+}
+.nav-link {
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.btn {
+  background-color: green;
+  color: white;
+  text-transform: uppercase;
+  padding: 18px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.about {
+  padding: 10%;
+  color: green;
+  height: 100vh;
+}
+
+.services {
+  padding: 10%;
+  height: 100vh;
+  background-color: black;
+  color: green;
+}
+.contacts {
+  padding: 10%;
+  min-height: 80vh;
+  color: green;
+}
+.form-group {
+  padding: 10px;
+}
+
+.myfield {
+  border: none;
+  background: none;
+  padding: 15px;
+  width: 100%;
+  outline: none;
+  border-bottom: 2px solid green;
+}
+
+.testimonials {
+  height: 100vh;
+  padding: 20%;
+  background-image: linear-gradient(24deg, black, green);
+  color: white;
+}
+
+.testi-list {
+  padding: 5%;
+  display: flex;
+}
+
+.box {
+  color: white;
+  background-color: green;
+  padding: 20px;
+  width: 30%;
+  margin-left: 20px;
+}
