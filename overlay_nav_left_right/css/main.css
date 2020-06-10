@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: black;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  text-align: center;
+  margin-top: 30px;
+}
+.overlay-content a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  transition: 0.3s;
+  padding: 20px;
+}
+.close-btn {
+  text-decoration: none;
+  font-size: 50px;
+  color: white;
+}
+.open-btn {
+  font-size: 50px;
+}
