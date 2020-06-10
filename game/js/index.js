@@ -17,5 +17,6 @@ for (let i = 0; i < touch_buttons.length; i++) {
 del_button.addEventListener("click", () => {
   for (let i = 0; i < screen_nums.innerText.length; i++) {
     screen_nums.innerText;
+    ft;
   }
 });

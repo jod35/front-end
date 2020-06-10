@@ -1,0 +1,133 @@
+* {
+  font-family: sans-serif;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+header {
+  display: flex;
+  color: dodgerblue;
+  padding: 10px;
+  box-shadow: 5px 5px 5px black;
+  justify-content: space-between;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  background-color: white;
+}
+.nav-item {
+  display: inline;
+  padding: 20px;
+  /* margin: 20px; */
+}
+.black-text {
+  color: black;
+}
+.nav-bar-item {
+  color: dodgerblue;
+  text-transform: capitalize;
+}
+.mobile-nav {
+  display: none;
+}
+.form {
+  margin-top: 100px;
+  padding: 20px;
+  text-align: center;
+}
+.myfield {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid dodgerblue;
+  font-size: 3rem;
+  text-align: center;
+  outline: none;
+  color: dodgerblue;
+}
+
+.mybtn {
+  border: none;
+  background-color: dodgerblue;
+  color: white;
+  text-transform: uppercase;
+  padding: 18px;
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 1.3rem;
+  outline: none;
+  cursor: pointer;
+  border-radius: 30px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.results {
+  color: dodgerblue;
+}
+.res-list {
+  width: 95%;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.res-box {
+  width: 300px;
+  padding: 20px;
+}
+.res-btn {
+  padding: 10px;
+  color: white;
+  background-color: dodgerblue;
+  border-radius: 15px;
+}
+footer {
+  color: white;
+  background-color: dodgerblue;
+  padding: 20px;
+}
+
+@media (max-width: 600px) {
+  header {
+    padding: 0;
+    box-shadow: none;
+  }
+  .nav-bar {
+    display: none;
+  }
+  .mobile-nav {
+    display: inline;
+    padding: 20px;
+    margin-right: 50px;
+  }
+  .mobile-div {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: dodgerblue;
+    display: none;
+  }
+  .mobile-div a {
+    text-align: center;
+    padding: 20px;
+    color: white;
+  }
+  .form {
+    margin-top: 200px;
+  }
+}
