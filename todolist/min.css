@@ -1,0 +1,29 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background: linear-gradient( lightblue,pink);
+}
+form{
+    padding: 20px;
+}
+form input{
+    padding: 20px;
+    width: 40%;
+}
+
+form button{
+    padding: 15px ;
+    color: white;
+    background-color:rgb(24, 88, 109);
+    border: none;
+}
+.tasks > .task +.task{
+    margin-top: 10px;
+}
+.task{
+    width: 80%;
+    margin: auto;
+    background-color:white;
+    padding: 20px;
+}
